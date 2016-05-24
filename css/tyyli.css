@@ -1,0 +1,33 @@
+.navbar {
+  background: #424242;
+  width: 100vw;
+  height: 100px;
+  text-align: center;
+  margin: 0;
+float: none;
+}
+
+
+li {
+  list-style: none;
+  margin: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block !important;
+    float: none;
+    
+}
+
+li a {
+  color: #FFF;
+    display: inline-block;
+    text-align: center;
+    float: none;
+    
+}
+
+ul {
+  -webkit-padding-start: 0 !important;
+    display: inline-block;
+    float: none;
+}
