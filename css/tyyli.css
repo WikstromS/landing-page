@@ -83,7 +83,7 @@ h2 {
     text-align: center !important;
     margin: 0 auto;
     width: 60%;
-margin-bottom: 20px;
+    margin-bottom: 20px;
     
 }
 
@@ -95,3 +95,12 @@ margin-bottom: 20px;
     font-family: Moondog;
     src: url(../fonts/moondog.ttf);
 }
+
+.container .bottom{
+    
+    margin-top: 50px;
+    
+}
+
+    
+    
