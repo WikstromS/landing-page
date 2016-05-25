@@ -1,12 +1,10 @@
 .navbar {
   background: #424242;
   width: 100vw;
-  height: 100px;
+  height: 80px;
   text-align: center;
-  margin: 0;
-float: none;
+  margin: 0; 
 }
-
 
 li {
   list-style: none;
@@ -15,15 +13,13 @@ li {
   margin-right: 5px;
   display: inline-block !important;
     float: none;
-    
 }
 
 li a {
   color: #FFF;
     display: inline-block;
     text-align: center;
-    float: none;
-    
+    float: none; 
 }
 
 ul {
@@ -34,14 +30,62 @@ ul {
     margin-top: 20px !important;
 }
 
-.container-fluid {
-    height: 300px;
-    width: 400px;
-    margin-top: 120px;
+
+body {
+    background-image: url(../imgs/galaxy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+    
     
 }
 
-.bg-1 {
-    background-image: url(../imgs/galaxy.png);
+.logo .img-responsive {
+    width: 450px;
+    height: 250px;
+    position: relative;
+    margin: 0 auto;
+     
 }
+
+
+.container  {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+   
+}
+
+
+.googleplay {
+    height: 100px;
+    width: 230px;
+      
     
+}
+
+.itunes {
+    height: 80px;
+    width: 230px;
+}
+
+h2 {
+    color: #fff !important;
+    font-family: 'Moondog' !important;
+    text-align: center !important;
+    
+}
+
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+    
+}
+
+@font-face {
+    font-family: Moondog;
+    src: url(../fonts/moondog.ttf);
+}
