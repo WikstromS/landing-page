@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .navbar {
   background: #424242;
   width: 100vw;
@@ -89,3 +90,111 @@ h2 {
     font-family: Moondog;
     src: url(../fonts/moondog.ttf);
 }
+=======
+.navbar {
+  background: #424242;
+  width: 100vw;
+  height: 80px;
+  text-align: center;
+  margin: 0; 
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block !important;
+    float: none;
+}
+
+li a {
+  color: #FFF;
+    display: inline-block;
+    text-align: center;
+    float: none; 
+}
+
+ul {
+  -webkit-padding-start: 0 !important;
+    display: inline-block;
+    float: none !important;
+    font-size: 24px;
+    margin-top: 20px !important;
+}
+
+
+body {
+    background-image: url(../imgs/galaxy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+}
+
+.logo .img-responsive {
+    width: 450px;
+    height: 250px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px; 
+}
+.js-video {
+  height: 0;
+  padding-top: 25px;
+  padding-bottom: 25%;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.js-video.widescreen {
+  padding-bottom: 56.34%;
+}
+ 
+.js-video.vimeo {
+  padding-top: 0;
+}
+
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  width: 720px;
+  height: 450px;
+  position: absolute;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.container  {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+
+.googleplay {
+    height: 100px;
+    width: 230px;
+    
+    
+    
+}
+
+.itunes {
+    height: 100px;
+    width: 230px;
+}
+
+h3 {
+    color: white
+}
+
+
+>>>>>>> b97aa7ce1c3c3f400c02d09119e1c2fff3d3e013
