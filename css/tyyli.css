@@ -77,9 +77,13 @@ body {
 }
 
 h2 {
-    color: #fff !important;
+    font-size: 30px;
+    color: lightblue!important;
     font-family: 'Moondog' !important;
     text-align: center !important;
+    margin: 0 auto;
+    width: 60%;
+margin-bottom: 20px;
     
 }
 
