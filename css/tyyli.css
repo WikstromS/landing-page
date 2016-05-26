@@ -67,7 +67,7 @@ body {
     height: 100px;
     width: 220px;
     float: left;
-    display: block;
+    display: inline-block;
     
 }
 
@@ -75,7 +75,7 @@ body {
     height: 80px;
     width: 200px;
     float: right;
-    display: block;
+    display: inline-block;
 }
 
 .itunes img {
@@ -84,6 +84,7 @@ body {
 
 #storelinks {
   height: 65px;
+  display: inline-block;
 }
 
 h2 {
@@ -117,6 +118,7 @@ h2 {
 
     body {
       width: 100%;
+      height: auto;
     }
 
     #storelinks {
@@ -132,6 +134,10 @@ h2 {
     }
     .container {
       height: 100px;
+    }
+
+    .googleplay {
+      width: 150px;
     }
 }
 
