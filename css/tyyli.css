@@ -74,9 +74,17 @@ body {
 
 .itunes {
     height: 80px;
-    width: 220px;
+    width: 200px;
     float: right;
     display: block;
+}
+
+.itunes img {
+  margin-top: 7px;
+}
+
+#storelinks {
+  height: 65px;
 }
 
 h2 {
@@ -104,6 +112,36 @@ h2 {
     display: block;
     
 }
+
+
+@media only screen and (max-width: 500px) {
+
+    body {
+      width: 100%;
+    }
+
+    #storelinks {
+      width: 100%;
+    }
+
+    #storelinks img {
+      width: 150px !important;
+    }
+
+    .row {
+      margin: 0;
+    }
+    .container {
+      height: 100px;
+    }
+}
+
+
+
+
+
+
+
 
 
     
