@@ -112,7 +112,17 @@ h2 {
     display: block;
     
 }
+ .rowbottom {
+     width: 100%;
+     margin: 0 auto;
+     margin-top: 20px;
+     display: inline-block;   
+     text-align: center;
+}
 
+.fa-4x {
+    font-size: 3em !important;
+}
 
 @media only screen and (max-width: 500px) {
 
@@ -144,6 +154,9 @@ h2 {
     .col-md-6 {
       padding:0;
     }
+    
+    .rowbottom {
+        margin-top: 20px;
 }
 
 @media only screen and (max-width: 330px) {
@@ -154,6 +167,9 @@ h2 {
     #storelinks img {
       width: 125px;
     }
+    
+    .rowbottom {
+        margin-top: 20px;
 }
 
     
