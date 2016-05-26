@@ -58,13 +58,14 @@ body {
     height: auto;
     margin: 0 auto;
     margin-top: 10px;
+    margin-bottom: 10px;
     
    
 }
 
 
 .googleplay {
-    height: 100px;
+    height: 80px;
     width: 220px;
     float: left;
     display: block;
