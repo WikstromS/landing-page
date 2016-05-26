@@ -54,7 +54,7 @@ body {
 
 .container  {
     display: block;
-    width: 40%;
+    width: 440px;
     height: auto;
     margin: 0 auto;
     margin-top: 10px;
@@ -65,15 +65,17 @@ body {
 
 .googleplay {
     height: 100px;
-    width: 230px;
+    width: 220px;
     float: left;
+    display: block;
     
 }
 
 .itunes {
     height: 80px;
-    width: 230px;
+    width: 220px;
     float: right;
+    display: block;
 }
 
 h2 {
@@ -96,11 +98,11 @@ h2 {
     src: url(../fonts/moondog.ttf);
 }
 
-.container .bottom{
-    
-    margin-top: 50px;
+.row {
+    margin-top: 20px;
+    display: block;
     
 }
 
-    
+
     
