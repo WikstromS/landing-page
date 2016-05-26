@@ -58,14 +58,13 @@ body {
     height: auto;
     margin: 0 auto;
     margin-top: 10px;
-    margin-bottom: 10px;
     
    
 }
 
 
 .googleplay {
-    height: 80px;
+    height: 100px;
     width: 220px;
     float: left;
     display: inline-block;
@@ -118,7 +117,7 @@ h2 {
 @media only screen and (max-width: 500px) {
 
     body {
-      width: 100%;
+      width: 98%;
       height: auto;
     }
 
@@ -135,19 +134,26 @@ h2 {
     }
     .container {
       height: 100px;
+      width: 95%;
     }
 
-    .googleplay {
+    .googleplay, .itunes {
       width: 150px;
+    }
+
+    .col-md-6 {
+      padding:0;
     }
 }
 
-
-
-
-
-
-
-
+@media only screen and (max-width: 330px) {
+    .container  {
+      width: 99%;
+      padding: 0;
+  }
+    #storelinks img {
+      width: 125px;
+    }
+}
 
     
