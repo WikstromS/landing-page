@@ -58,6 +58,7 @@ body {
     height: auto;
     margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 
 
 }
@@ -66,21 +67,14 @@ body {
 .googleplay {
     height: 100px;
     width: 220px;
-<<<<<<< HEAD
-    position:relative;
-    display: inline-block;
-    margin: 0 auto;
-    text-align: center;
-    
-    
-=======
     position: relative;
     display: block;
     margin: 0 auto;
     text-align: center;
     float: none !important;
+    
 
->>>>>>> 252a70b7b12a29714b2640f6f543da5868deae63
+
 }
 
 .itunes {
