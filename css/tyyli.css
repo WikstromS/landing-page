@@ -4,7 +4,7 @@
   width: 100vw;
   height: 80px;
   text-align: center;
-  margin: 0; 
+  margin: 0;
 }
 
 li {
@@ -20,7 +20,7 @@ li a {
   color: #FFF;
     display: inline-block;
     text-align: center;
-    float: none; 
+    float: none;
 }
 
 ul {
@@ -38,9 +38,9 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     max-width:98%;
-    
-    
-    
+
+
+
 }
 
 .logo .img-responsive {
@@ -48,7 +48,7 @@ body {
     height: 300px;
     position: relative;
     margin: 0 auto;
-     
+
 }
 
 
@@ -58,20 +58,29 @@ body {
     height: auto;
     margin: 0 auto;
     margin-top: 20px;
-    
-   
+
+
 }
 
 
 .googleplay {
     height: 100px;
     width: 220px;
+<<<<<<< HEAD
     position:relative;
     display: inline-block;
     margin: 0 auto;
     text-align: center;
     
     
+=======
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    float: none !important;
+
+>>>>>>> 252a70b7b12a29714b2640f6f543da5868deae63
 }
 
 .itunes {
@@ -86,8 +95,9 @@ body {
 
 #storelinks {
   height: 65px;
-  display: inline-block;
-    
+  display: block;
+  position: relative;
+  margin: 0 auto;
 }
 
 h2 {
@@ -98,11 +108,11 @@ h2 {
     margin: 0 auto;
     width: 60%;
     margin-bottom: 20px;
-    
+
 }
 
 .embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
-    
+
 }
 
 @font-face {
@@ -113,13 +123,13 @@ h2 {
 .row {
     margin-top: 20px;
     display: block;
-    
+
 }
  .rowbottom {
      width: 100%;
      margin: 0 auto;
      margin-top: 20px;
-     display: inline-block;   
+     display: inline-block;
      text-align: center;
 }
 
@@ -157,7 +167,7 @@ h2 {
     .col-md-6 {
       padding:0;
     }
-    
+
     .rowbottom {
         margin-top: 20px;
 }
@@ -170,9 +180,7 @@ h2 {
     #storelinks img {
       width: 125px;
     }
-    
+
     .rowbottom {
         margin-top: 20px;
 }
-
-    
