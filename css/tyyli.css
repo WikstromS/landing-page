@@ -66,10 +66,11 @@ body {
 .googleplay {
     height: 100px;
     width: 220px;
-    position: relative;
+    position:relative;
     display: inline-block;
     margin: 0 auto;
     text-align: center;
+    
     
 }
 
