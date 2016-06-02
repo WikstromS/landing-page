@@ -45,7 +45,7 @@ body {
 
 .logo .img-responsive {
     width: 450px;
-    height: 250px;
+    height: 300px;
     position: relative;
     margin: 0 auto;
      
@@ -57,7 +57,7 @@ body {
     width: 440px;
     height: auto;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 20px;
     
    
 }
@@ -66,8 +66,10 @@ body {
 .googleplay {
     height: 100px;
     width: 220px;
-    float: left;
+    position: relative;
     display: inline-block;
+    margin: 0 auto;
+    text-align: center;
     
 }
 
@@ -77,7 +79,6 @@ body {
     float: right;
     display: inline-block;
 }
-
 .itunes img {
   margin-top: 7px;
 }
@@ -85,6 +86,7 @@ body {
 #storelinks {
   height: 65px;
   display: inline-block;
+    
 }
 
 h2 {
